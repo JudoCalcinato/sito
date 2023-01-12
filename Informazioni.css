@@ -94,7 +94,24 @@
 }
 
 @media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 642px;
+  }
+
+  .u-section-1 .u-layout-wrap-1 {
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
+
+  .u-section-1 .u-layout-cell-1 {
+    min-height: 338px;
+  }
+
+  .u-section-1 .u-icon-1 {
+    margin-top: 66px;
+  }
+
   .u-section-1 .u-image-1 {
-    min-height: 391px;
+    min-height: 294px;
   }
 }
