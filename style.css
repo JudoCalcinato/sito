@@ -1,0 +1,255 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+
+body {
+    margin: 0px;
+    background-color: #2e2626;;
+    
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgb(247, 247, 247);
+    height: 120px;
+}
+
+.navbar img {
+    height: 120px;
+    width: 120px;
+    display: flex;
+
+    border: 30px;
+}
+
+
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #212121;
+    box-shadow: 0px 2px 10px rgb(14, 13, 13);
+}
+
+.section ul  {
+    display: flex; 
+    list-style: none;
+}
+
+.section ul li {
+    margin-right: 33px;
+}
+
+.section ul li a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.658);
+}
+
+.HomeC1 {
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #111111;
+}
+
+.Homec11 {
+    margin-right: 50px;
+    color: white;
+}
+.Homec11 p{
+    max-width: 500px;
+}
+
+.Homec111 {
+    background-color: white;
+} 
+
+
+.Homec111 img{
+    
+    height: 300px;
+    width: 300px;
+}
+
+
+.HomeC2 {
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #1d1919;
+}
+
+.Homec22 {
+    margin-right: 50px;
+    color: white;
+}
+.Homec22 p{
+    max-width: 500px;
+}
+
+
+
+.Homec222 img{
+    
+    height: 300px;
+    
+}
+
+.HomeC3 {
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #2c2828;
+}
+
+.Homec33 {
+    margin-right: 50px;
+    color: white;
+}
+.Homec33 p{
+    max-width: 500px;
+}
+
+
+
+.Homec333 img{
+    
+    height: 300px;
+    
+}
+
+.INFOBTN {
+    border: none;
+    padding: 10px;
+    width: 180px;
+    background-color: rgb(71, 105, 255);
+    color: white;
+    font-size: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgb(31, 15, 172);
+}
+
+.INFOBTN:hover {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 850px) {
+    
+    
+
+    .Homec11 {
+        margin-right: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .Homec11 p{
+        max-width: 400px;
+        
+    }
+
+    .Homec111 {
+        display: none;
+    }
+    .Homec22 {
+        margin-right: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .Homec22 p{
+        max-width: 400px;
+        
+    }
+
+    .Homec222 {
+        display: none;
+    }
+    .HomeC3 {
+        padding: 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background-color: #2c2828;
+    }
+
+    .Homec33 {
+        margin-right: 0px;
+    }
+    
+}
+
+::-webkit-scrollbar {
+    background-color: rgb(50, 65, 78);
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: white;
+    border-radius: 20px;
+}
+
+
+.Tables {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    flex-direction: column;
+}
+
+
+.table td,
+.table th {
+    padding: 2px;
+    background-color: white;
+    text-align: left;
+    border: 1px solid black;
+}
+
+.Elenco {
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    background-color: #1d1919;
+}
+
+.Social {
+    display: flex;
+    background-color: #0f0f0f;
+    height: 40px;
+    justify-content: center;
+    padding: 10px;
+}
+
+.Social img {
+    height: 40px;
+    width: 40px;
+    margin-left: 10px;
+}
+
+.Agg {
+    color: yellow;
+}
+
+.INFOS {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+}
